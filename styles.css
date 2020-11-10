@@ -1,0 +1,46 @@
+h1, h2 {
+    color: darkmagenta;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 5
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column-reverse;
+    flex-wrap: wrap-reverse; */
+    /* flex-flow: <flex-direction> <flex-wrap> */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: lightgreen;
+    width: 100%;
+    height: 100px;
+}
+
+.item {
+    border: black solid 2px;
+    background: lightblue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.features > div {
+    width: 100px;
+    height: 80px;
+}
